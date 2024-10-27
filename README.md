@@ -1,13 +1,11 @@
 Pokédex App
 A modern Flutter application that showcases Pokémon information using the PokéAPI. Built with Clean Architecture principles and modern Flutter development practices.
-
 📱 Screenshots
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-<img src="screenshots/home_screen.png" width="200" alt="Home Screen"/>
-<img src="screenshots/pokemon_search.png" width="200" alt="Pokemon Search"/>
-<img src="screenshots/pokemon_detail.png" width="200" alt="Pokemon Detail"/>
+<div align="center">
+  <img src="screenshots/home_screen.png" width="200" alt="Home Screen"/>
+  <img src="screenshots/pokemon_search.png" width="200" alt="Pokemon Search"/>
+  <img src="screenshots/pokemon_detail.png" width="200" alt="Pokemon Detail"/>
 </div>
-
 🌟 Features
 
 Browse through Pokémon list
@@ -17,7 +15,7 @@ Responsive layout that works on various screen sizes
 
 🏗️ Architecture
 The project follows Clean Architecture principles with a clear separation of concerns:
-lib/
+Copylib/
 ├── core/                  # Core functionality and utilities
 │   ├── di/               # Dependency injection setup
 │   ├── error/            # Error handling
@@ -29,8 +27,6 @@ lib/
 │       ├── data/         # Data layer
 │       ├── domain/       # Domain layer
 │       └── presentation/ # Presentation layer
-
-
 🛠️ Technical Stack
 State Management
 
